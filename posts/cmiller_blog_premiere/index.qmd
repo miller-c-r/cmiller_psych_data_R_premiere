@@ -1,0 +1,25 @@
+---
+title: " My First Blog  Entry"
+author: "C Miller"
+date: "2023-01-25"
+categories: [news, code, analysis]
+image: "the_letter_R.png"
+---
+
+
+print("I am looking forward to working with R text, plots and graphs")
+
+{r}
+
+library(datasets)
+
+---average rainfall in inches of 70 U.S. cities including Puerto Rico
+
+head(precip)
+
+
+barplot(precip)
+
+
+
+

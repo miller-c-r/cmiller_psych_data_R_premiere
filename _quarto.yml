@@ -8,7 +8,7 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/miller-c-r/cmiller_data_R_psych_deuxieme/tree/main/cmiller_premiere
+        href: https://github.com/miller-c-r/cmiller_psych_data_R_premiere
 format:
   html:
     theme: cosmo
