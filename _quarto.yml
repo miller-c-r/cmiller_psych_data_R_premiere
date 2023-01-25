@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "<i><b>Chantal's Blog on<i/> <br> <b> R<b/> <br>"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/miller-c-r/cmiller_data_R_psych_deuxieme/tree/main/cmiller_premiere
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+editor: visual
+

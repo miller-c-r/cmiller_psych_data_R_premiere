@@ -1,0 +1,13 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+
+    - icon: github
+      text: Github
+      href: https://github.com/miller-c-r/cmiller_data_R_psych_deuxieme
+---
+
+Click the link below for my github page with more source code and raw data !
