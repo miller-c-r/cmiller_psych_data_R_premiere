@@ -3,23 +3,13 @@ title: " My First Blog  Entry"
 author: "C Miller"
 date: "2023-01-25"
 categories: [news, code, analysis]
-image: "the_letter_R.png"
+image: "Rplot.png"
 ---
 
+In an attempt to learn data analysis the R programming language is mentioned often. Yet it seems to be far less commonly taught than a more prevalent data science language Python.
 
-print("I am looking forward to working with R text, plots and graphs")
+In this blog entry I will write what my goals are for the next few months of this course.
 
-{r}
+I would like to spend time on applied data science, such as practical uses for R. The analyses that would be useful when working in a real-world setting and also collaborative benefits of using R versus other languages.
 
-library(datasets)
-
----average rainfall in inches of 70 U.S. cities including Puerto Rico
-
-head(precip)
-
-
-barplot(precip)
-
-
-
-
+Visualizing data in R , and becoming more comfortable with syntax of a new language are the reasons I decided this course would benefit me.

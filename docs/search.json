@@ -11,20 +11,20 @@
     "href": "index.html",
     "title": "Learning how to Program in R  My Journey  C Miller",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 22, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "No Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog Entry\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "No Code Here Yet",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "I am absolutely looking forward to working with R text, plots and graphs"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "My First Blog Entry",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "In an attempt to learn data analysis the R programming language is mentioned often. Yet it seems to be far less commonly taught than a more prevalent data science language Python.\nIn this blog entry I will write what my goals are for the next few months of this course.\nI would like to spend time on applied data science, such as practical uses for R. The analyses that would be useful when working in a real-world setting and also collaborative benefits of using R versus other languages.\nVisualizing data in R , and becoming more comfortable with syntax of a new language are the reasons I decided this course would benefit me."
   }
 ]

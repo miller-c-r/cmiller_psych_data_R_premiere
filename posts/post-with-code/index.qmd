@@ -1,25 +1,9 @@
 ---
-title: " My First Blog  Entry"
+title: " No Code Here Yet"
 author: "C Miller"
 date: "2023-01-25"
 categories: [news, code, analysis]
-image: "the_letter_R.png"
+image: "pic_apprehension.jpg"
 ---
 
-
-print("I am looking forward to working with R text, plots and graphs")
-
-{r}
-
-library(datasets)
-
----average rainfall in inches of 70 U.S. cities including Puerto Rico
-
-head(precip)
-
-
-barplot(precip)
-
-
-
-
+I am *absolutely* looking forward to working with R text, plots and graphs
