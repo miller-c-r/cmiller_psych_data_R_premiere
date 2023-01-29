@@ -1,11 +1,11 @@
 ---
 title: " My First Blog.<br>
-         *The image to the right is from the library    
-         **precip** a dataset of <br>average annual rainfall*"
+         *Depicted here is an example from the library    
+         **Indometh** a dataset of <br>the pharmacokinetics of Indomethacin*"
 author: "C Miller"
 date: "2023-01-25"
 categories: [news, code, analysis]
-image: "Rplot.png"
+image: ""
 ---
 
 In an attempt to learn data analysis the R programming language is mentioned often. Yet it seems to be far less commonly taught than a more prevalent data science language Python.
