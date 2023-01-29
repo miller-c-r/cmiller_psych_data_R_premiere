@@ -5,7 +5,7 @@ title: " My First Blog.<br>
 author: "C Miller"
 date: "2023-01-25"
 categories: [news, code, analysis]
-image: ""
+image: "time_vs_conc_indometh_premiere.png"
 ---
 
 In an attempt to learn data analysis the R programming language is mentioned often. Yet it seems to be far less commonly taught than a more prevalent data science language Python.
