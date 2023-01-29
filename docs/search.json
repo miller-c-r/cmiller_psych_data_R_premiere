@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Learning how to Program in R  My Journey  C Miller",
     "section": "",
-    "text": "No Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog. Depicted here is an example from the library precip a dataset of average annual rainfall\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
+    "text": "No Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog. Depicted here is an example from the library Indometh a dataset of the pharmacokinetics of Indomethacin\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -23,7 +23,7 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "My First Blog. Depicted here is an example from the library precip a dataset of average annual rainfall",
+    "title": "My First Blog. Depicted here is an example from the library Indometh a dataset of the pharmacokinetics of Indomethacin",
     "section": "",
     "text": "In an attempt to learn data analysis the R programming language is mentioned often. Yet it seems to be far less commonly taught than a more prevalent data science language Python.\nIn this blog entry I will write what my goals are for the next few months of this course.\nI would like to spend time on applied data science, such as practical uses for R. The analyses that would be useful when working in a real-world setting and also collaborative benefits of using R versus other languages.\nVisualizing data in R , and becoming more comfortable with syntax of a new language are the reasons I decided this course would benefit me."
   }
