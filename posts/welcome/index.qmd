@@ -1,6 +1,6 @@
 ---
 title: " My First Blog.<br>
-         *Depicted here is an example from the library    
+         *An example from the library    
          **Indometh** a dataset of <br>the pharmacokinetics of Indomethacin*"
 author: "C Miller"
 date: "2023-01-25"
