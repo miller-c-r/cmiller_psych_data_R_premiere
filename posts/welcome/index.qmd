@@ -8,6 +8,25 @@ categories: [news, code, analysis]
 image: "time_vs_conc_indometh_premiere.png"
 ---
 
+```{r}
+
+library(tidyverse)
+# view some data sets maybe?
+#call ggplot
+#data() view a list of built-ins
+# select Indomethacin pharmacokinetics data data
+#view Indometh data set , including variables  to set on x and y axes
+
+?Indometh
+ggplot(data=Indometh,
+        mapping = aes(x= time,
+        y= conc ))+
+    geom_point()+
+    geom_smooth()
+
+
+```
+
 In an attempt to learn data analysis the R programming language is mentioned often. Yet it seems to be far less commonly taught than a more prevalent data science language Python.
 
 In this blog entry I will write what my goals are for the next few months of this course.
