@@ -8,7 +8,8 @@ categories: [news, code, analysis]
 image: "time_vs_conc_indometh_premiere.png"
 ---
 
-```{r}
+```
+{r}
 
 library(tidyverse)
 # view some data sets maybe?
