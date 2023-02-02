@@ -10,11 +10,12 @@ image: "time_vs_conc_indometh_premiere.png"
 
 ```{r}
 
-library(tidyverse)
 # view some data sets maybe?
 #call ggplot
 #data() view a list of built-ins
 # select Indomethacin pharmacokinetics data data
+library(tidyverse)
+
 #view Indometh data set , including variables  to set on x and y axes
 
 ?Indometh
