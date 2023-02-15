@@ -8,7 +8,7 @@ image: "w_ironing.jpg"
 
 ```{r}
 
-print(" SOME TIPS: ")
+## SOME TIPS:
 
 print("Tip 1. storing a value in a variable")
 
