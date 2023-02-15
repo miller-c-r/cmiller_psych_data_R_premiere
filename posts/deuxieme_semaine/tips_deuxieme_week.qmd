@@ -14,7 +14,7 @@ categories: \[news, code, analysis\]
 
 print(" SOME TIPS: ")
 
-"Tip 1. storing a value in a variable"
+print("Tip 1. storing a value in a variable")
 
 x <- "Chantal"
 print(x)
@@ -26,7 +26,7 @@ y <- c(1,2,3,4,5,6)
 # the function c will combine the values in the parentheses
 print(y)
 
-"Tip 3. Calculating a mean, the difference between text and numerical data"
+print("Tip 3. Calculating a mean, the difference between text and numerical data")
 
 # cannot calculate mean("1", "2", "3", "4")
 
@@ -34,7 +34,7 @@ print(y)
 
 mean(y)
 
-"Tip 4. How to read function documentation"
+print("Tip 4. How to read function documentation")
 
 #sample function
 
@@ -42,9 +42,9 @@ mean(y)
 
 #sample(x, size, replace = FALSE, prob = NULL)
 
-"Calculating probability with a six-sided die"
+print("Calculating probability with a six-sided die")
 
-sample(y, 6, replace=TRUE, prob= .167)
+
 
 
 ```
