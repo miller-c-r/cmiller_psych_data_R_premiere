@@ -1,0 +1,37 @@
+---
+
+title: " Some tips for my R toolkit"
+
+author: "C Miller"
+
+date: "2023-02-15"
+
+categories: \[news, code, analysis\]
+
+
+---
+
+```{r}
+
+print(" SOME TIPS: ")
+
+print("Tip 1. storing a value in a variable")
+x <- "Chantal"
+print(x)
+
+print("Tip 2. The function 'c' ")
+
+y <- c(1,2,3,4, 5)
+
+# the function c will combine the values in the parentheses
+print(y)
+
+print("Tip 3. Calculating a mean, the difference between text and numerical data")
+
+# cannot calculate mean("1", "2", "3", "4")
+
+#convert to numerical data:
+
+mean(y)
+
+```

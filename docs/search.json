@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Learning how to Program in R  My Journey  C Miller",
     "section": "",
-    "text": "No Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog. An example from the library Indometh a dataset of the pharmacokinetics of Indomethacin\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
+    "text": "the function c will combine the values in the parentheses\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nNo Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog. An example from the library Indometh a dataset of the pharmacokinetics of Indomethacin\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,5 +26,12 @@
     "title": "My First Blog. An example from the library Indometh a dataset of the pharmacokinetics of Indomethacin",
     "section": "",
     "text": "library(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.2.2\n\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.4.0      ✔ purrr   1.0.1 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.3.0      ✔ stringr 1.5.0 \n✔ readr   2.1.3      ✔ forcats 0.5.2 \n\n\nWarning: package 'ggplot2' was built under R version 4.2.2\n\n\nWarning: package 'tibble' was built under R version 4.2.2\n\n\nWarning: package 'tidyr' was built under R version 4.2.2\n\n\nWarning: package 'readr' was built under R version 4.2.2\n\n\nWarning: package 'purrr' was built under R version 4.2.2\n\n\nWarning: package 'dplyr' was built under R version 4.2.2\n\n\nWarning: package 'stringr' was built under R version 4.2.2\n\n\nWarning: package 'forcats' was built under R version 4.2.2\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n# view some data sets maybe?\n#call ggplot\n#data() view a list of built-ins\n# select Indomethacin pharmacokinetics data data\n#view Indometh data set , including variables  to set on x and y axes\n\n?Indometh\n\nstarting httpd help server ... done\n\nggplot(data=Indometh,\n        mapping = aes(x= time,\n        y= conc ))+\n    geom_point()+\n    geom_smooth()\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\n\n\n\nIn an attempt to learn data analysis the R programming language is mentioned often. Yet it seems to be far less commonly taught than a more prevalent data science language Python.\nIn this blog entry I will write what my goals are for the next few months of this course.\nI would like to spend time on applied data science, such as practical uses for R. The analyses that would be useful when working in a real-world setting and also collaborative benefits of using R versus other languages.\nVisualizing data in R , and becoming more comfortable with syntax of a new language are the reasons I decided this course would benefit me."
+  },
+  {
+    "objectID": "posts/deuxieme_semaine/tips_deuxieme_week.html",
+    "href": "posts/deuxieme_semaine/tips_deuxieme_week.html",
+    "title": "<i><b>Chantal's Blog on<i/> <br> <b> R<b/> <br>",
+    "section": "",
+    "text": "title: ” Some tips for my R toolkit”\nauthor: “C Miller”\ndate: “2023-02-15”\ncategories: [news, code, analysis]\n\n\nprint(\" SOME TIPS: \")\n\n[1] \" SOME TIPS: \"\n\nprint(\"Tip 1. storing a value in a variable\")\n\n[1] \"Tip 1. storing a value in a variable\"\n\nx <- \"Chantal\"\nprint(x)\n\n[1] \"Chantal\"\n\nprint(\"Tip 2. The function 'c' \")\n\n[1] \"Tip 2. The function 'c' \"\n\ny <- c(1,2,3,4, 5)\n\n# the function c will combine the values in the parentheses\nprint(y)\n\n[1] 1 2 3 4 5\n\nprint(\"Tip 3. Calculating a mean, the difference between text and numerical data\")\n\n[1] \"Tip 3. Calculating a mean, the difference between text and numerical data\"\n\n# cannot calculate mean(\"1\", \"2\", \"3\", \"4\")\n\n#convert to numerical data:\n\nmean(y)\n\n[1] 3"
   }
 ]
