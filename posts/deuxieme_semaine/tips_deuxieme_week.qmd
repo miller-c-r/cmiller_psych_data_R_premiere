@@ -17,10 +17,11 @@ print(x)
 ### *Tip 2. The function 'c'*
 
 #### The function c will combine the values in the parentheses
-print(y)
 
 ```{r}
 y <- c(1,2,3,4,5,6)
+
+print(y)
 ```
 ### *Tip 3. Calculating a mean, the difference between text and numerical data*
 
