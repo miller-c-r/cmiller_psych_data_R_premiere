@@ -27,7 +27,7 @@ print(y)
 
 #### Cannot calculate mean(~~"1", "2", "3", "4"~~)
 
-####Convert to numerical data:
+#### Convert to numerical data: (1,2,3,4)
 
 ```{r}
 mean(y)
