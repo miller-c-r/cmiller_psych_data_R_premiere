@@ -8,6 +8,8 @@ categories: [news, code, analysis]
 image: "time_vs_conc_indometh_premiere.png"
 ---
 
+## Viewing some data sets 
+
 ```{r}
 
 # view some data sets maybe?
