@@ -3,9 +3,9 @@ title: "Some tips for my R toolkit"
 author: "C Miller"
 date: "2023-02-15"
 categories: [news, code, analysis]
-image: "w_ironing.jpg"
+image: "some_pie.jpg"
 ---
-## *SOME TIPS:*
+## *Three ~~very~~ sort of helpful TIPS:*
 
 ### *Tip 1. storing a value in a variable*
 
@@ -32,3 +32,8 @@ print(y)
 ```{r}
 mean(y)
 ```
+
+#### *Tip 4. Getting a flaky pie crust for a double crust blueberry pie*
+            a. Use frozen butter
+            b. Use an oxo good grip pastry blender while cutting fat into the dough
+            c. dont rush lamination
