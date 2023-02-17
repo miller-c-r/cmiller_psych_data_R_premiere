@@ -5,42 +5,29 @@ date: "2023-02-15"
 categories: [news, code, analysis]
 image: "w_ironing.jpg"
 ---
+## *SOME TIPS:*
+
+### *Tip 1. storing a value in a variable*
 
 ```{r}
-
-## SOME TIPS:
-
-### Tip 1. storing a value in a variable 
-
 x <- "Chantal"
 print(x)
 
+```
 ### *Tip 2. The function 'c'*
 
-y <- c(1,2,3,4,5,6)
-
-# the function c will combine the values in the parentheses
+#### The function c will combine the values in the parentheses
 print(y)
 
+```{r}
+y <- c(1,2,3,4,5,6)
+```
 ### *Tip 3. Calculating a mean, the difference between text and numerical data*
 
-# cannot calculate mean(~~"1", "2", "3", "4"~~)
+#### Cannot calculate mean(~~"1", "2", "3", "4"~~)
 
-#convert to numerical data:
+####Convert to numerical data:
 
+```{r}
 mean(y)
-
-print("Tip 4. How to read function documentation")
-
-#sample function
-
-#function arguments
-
-#sample(x, size, replace = FALSE, prob = NULL)
-
-print("Calculating probability with a six-sided die")
-
-
-
-
 ```
