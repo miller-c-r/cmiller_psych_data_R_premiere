@@ -8,23 +8,23 @@ image: "w_ironing.jpg"
 
 ```{r}
 
-print(" SOME TIPS: ")
+## *SOME TIPS:* 
 
-print("Tip 1. storing a value in a variable")
+### Tip 1. storing a value in a variable 
 
 x <- "Chantal"
 print(x)
 
-print("Tip 2. The function 'c' ")
+### *Tip 2. The function 'c'*
 
 y <- c(1,2,3,4,5,6)
 
 # the function c will combine the values in the parentheses
 print(y)
 
-print("Tip 3. Calculating a mean, the difference between text and numerical data")
+### *Tip 3. Calculating a mean, the difference between text and numerical data*
 
-# cannot calculate mean("1", "2", "3", "4")
+# cannot calculate mean(~~"1", "2", "3", "4"~~)
 
 #convert to numerical data:
 
