@@ -1,0 +1,7 @@
+---
+title: "Importing data"
+author: " C Miller"
+date: "2023-03-08"
+categories: [news, code, analysis]
+image: "swan.png"
+---
