@@ -1,0 +1,7 @@
+---
+title: "Midterm Part 2"
+author: "C Miller"
+date: "03-31-2023"
+categories: [news, code, analysis]
+image: "portal2.png"
+---
