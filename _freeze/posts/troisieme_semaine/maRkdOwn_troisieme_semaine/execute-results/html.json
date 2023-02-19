@@ -1,0 +1,14 @@
+{
+  "hash": "0d21bbc779c6fc02fb6de039269b09a5",
+  "result": {
+    "markdown": "---\ntitle: \"*Some* Markdown ~~with~~ in R\"\n\nauthor: \"C Miller\"\n\ndate: \"2023-02-22\"\n\ncategories: [news, code, analysis]\n\nimage: \"magical_text.png\"\n---\n\n\n## Markdown in  R\n\n### A Few Examples\n\n#### 1. **I *can* complete the midterm**\n\n#### 2. I ~~can~~ complete the midterm\n\n#### 3. \n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"I can complete the midterm\"\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

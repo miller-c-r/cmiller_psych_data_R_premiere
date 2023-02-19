@@ -37,8 +37,8 @@
   {
     "objectID": "posts/troisieme_semaine/maRkdOwn_troisieme_semaine.html",
     "href": "posts/troisieme_semaine/maRkdOwn_troisieme_semaine.html",
-    "title": "<i><b>Chantal's Blog on<i/> <br> <b> R<b/> <br>",
+    "title": "Some Markdown with in R",
     "section": "",
-    "text": "title: “Some Markdown with in R”\nauthor: “C Miller”\ndate: “2023-02-22”\ncategories: [news, code, analysis]\nimage: “magical_text.png”"
+    "text": "[1] \"I can complete the midterm\""
   }
 ]

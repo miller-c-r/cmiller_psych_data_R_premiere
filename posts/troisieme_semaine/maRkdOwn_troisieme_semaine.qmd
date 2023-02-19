@@ -9,3 +9,47 @@ categories: [news, code, analysis]
 
 image: "magical_text.png"
 ---
+
+## Markdown in  R
+
+### A Few Examples with plain text
+
+#### 1.  italics **I *can* complete the midterm**
+
+#### 2. strikethrough:  I ~~can~~ complete the midterm
+
+#### 3. hiding my code with echo=False:
+
+```{r echo=FALSE}
+print("I can complete the midterm")
+
+```
+
+#### 4. showing code:
+
+```{r}
+print("I can complete the midterm")
+```
+
+### Some Math 
+
+#### 1.  simple addition
+
+```{r}
+5 + 5
+```
+
+### 2. square root
+
+```{r}
+
+sqrt(100)
+```
+
+#### 3. sum of a range of numbers
+
+```{r}
+
+sum(1:4)
+
+```
