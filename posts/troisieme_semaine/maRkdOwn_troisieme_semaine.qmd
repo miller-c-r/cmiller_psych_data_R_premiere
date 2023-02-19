@@ -25,7 +25,7 @@ print("I can complete the midterm")
 
 ```
 
-#### 4. showing code:
+#### 4. versus showing code:
 
 ```{r}
 print("I can complete the midterm")
