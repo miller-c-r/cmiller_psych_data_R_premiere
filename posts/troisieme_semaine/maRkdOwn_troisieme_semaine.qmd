@@ -1,0 +1,13 @@
+---
+
+title: "How to Markdown with R"
+
+author: "C Miller"
+
+date: "2023-02-22"
+
+categories: [news, code, analysis]
+
+image: "magical_text.png"
+
+---

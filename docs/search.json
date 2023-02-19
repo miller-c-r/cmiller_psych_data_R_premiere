@@ -32,6 +32,13 @@
     "href": "posts/deuxieme_semaine/tips_deuxieme_week.html",
     "title": "Some tips for my R toolkit",
     "section": "",
-    "text": "x <- \"Chantal\"\nprint(x)\n\n[1] \"Chantal\"\n\n\n\n\n\n\n\n\ny <- c(1,2,3,4,5,6)\n\nprint(y)\n\n[1] 1 2 3 4 5 6\n\n\n\n\n\n\n\n\n\n\n\n\nmean(y)\n\n[1] 3.5\n\n\n\n\n\n        a. Use frozen butter\n        b. Use an oxo good grip pastry blender while cutting fat into the dough\n        c. dont rush lamination"
+    "text": "x <- \"Chantal\"\nprint(x)\n\n[1] \"Chantal\"\n\n\n\n\n\n\n\n\nx <- c(\"one\", \"two\", \"three\", \"four\", \"five\", \"six\")\ny <- c(1,2,3,4,5,6)\n\nprint(x)\n\n[1] \"one\"   \"two\"   \"three\" \"four\"  \"five\"  \"six\"  \n\nprint(y)\n\n[1] 1 2 3 4 5 6\n\n\n\n\n\n\n\n\n\n\n\n\nmean(y)\n\n[1] 3.5\n\n\n\n\n\n        a. Use frozen butter\n        b. Use an oxo good grip pastry blender while cutting fat into the dough\n        c. dont rush lamination"
+  },
+  {
+    "objectID": "posts/troisieme_semaine/maRkdOwn_troisieme_semaine.html",
+    "href": "posts/troisieme_semaine/maRkdOwn_troisieme_semaine.html",
+    "title": "<i><b>Chantal's Blog on<i/> <br> <b> R<b/> <br>",
+    "section": "",
+    "text": "title: “How to Markdown with R”\nauthor: “C Miller”\ndate: “2023-02-22”\ncategories: [news, code, analysis]\nimage: “magical_text.png”"
   }
 ]
