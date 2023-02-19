@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Learning how to Program in R  My Journey  C Miller",
     "section": "",
-    "text": "Some tips for my R toolkit\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nNo Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog. An example from the library Indometh a dataset of the pharmacokinetics of Indomethacin\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
+    "text": "Some Markdown with in R\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nSome tips for my R toolkit\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nNo Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog. An example from the library Indometh a dataset of the pharmacokinetics of Indomethacin\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -39,6 +39,6 @@
     "href": "posts/troisieme_semaine/maRkdOwn_troisieme_semaine.html",
     "title": "<i><b>Chantal's Blog on<i/> <br> <b> R<b/> <br>",
     "section": "",
-    "text": "title: “How to Markdown with R”\nauthor: “C Miller”\ndate: “2023-02-22”\ncategories: [news, code, analysis]\nimage: “magical_text.png”"
+    "text": "title: “Some Markdown with in R”\nauthor: “C Miller”\ndate: “2023-02-22”\ncategories: [news, code, analysis]\nimage: “magical_text.png”"
   }
 ]
