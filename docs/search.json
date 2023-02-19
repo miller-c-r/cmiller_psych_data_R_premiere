@@ -39,6 +39,6 @@
     "href": "posts/troisieme_semaine/maRkdOwn_troisieme_semaine.html",
     "title": "Some Markdown with in R",
     "section": "",
-    "text": "[1] \"I can complete the midterm\""
+    "text": "[1] \"I can complete the midterm\"\n\n\n\n\n\n\nprint(\"I can complete the midterm\")\n\n[1] \"I can complete the midterm\"\n\n\n\n\n\n\n\n\n\n5 + 5\n\n[1] 10\n\n\n\n\n\n\n\nsqrt(100)\n\n[1] 10\n\n\n\n\n\nsum(1:4)\n\n[1] 10"
   }
 ]

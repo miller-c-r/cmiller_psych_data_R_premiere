@@ -1,7 +1,7 @@
 {
-  "hash": "0d21bbc779c6fc02fb6de039269b09a5",
+  "hash": "e9ac9d2c76373e8ad5bc9b51ce9aca79",
   "result": {
-    "markdown": "---\ntitle: \"*Some* Markdown ~~with~~ in R\"\n\nauthor: \"C Miller\"\n\ndate: \"2023-02-22\"\n\ncategories: [news, code, analysis]\n\nimage: \"magical_text.png\"\n---\n\n\n## Markdown in  R\n\n### A Few Examples\n\n#### 1. **I *can* complete the midterm**\n\n#### 2. I ~~can~~ complete the midterm\n\n#### 3. \n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"I can complete the midterm\"\n```\n:::\n:::\n",
+    "markdown": "---\ntitle: \"*Some* Markdown ~~with~~ in R\"\n\nauthor: \"C Miller\"\n\ndate: \"2023-02-22\"\n\ncategories: [news, code, analysis]\n\nimage: \"magical_text.png\"\n---\n\n\n## Markdown in R\n\n### A Few Examples with plain text\n\n#### 1. italics **I *can* complete the midterm**\n\n#### 2. strikethrough: I ~~can~~ complete the midterm\n\n#### 3. hiding my code with echo=False:\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"I can complete the midterm\"\n```\n:::\n:::\n\n\n#### 4. showing code:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(\"I can complete the midterm\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"I can complete the midterm\"\n```\n:::\n:::\n\n\n### Some Math\n\n#### 1. simple addition\n\n\n::: {.cell}\n\n```{.r .cell-code}\n5 + 5\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 10\n```\n:::\n:::\n\n\n### 2. square root\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsqrt(100)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 10\n```\n:::\n:::\n\n\n#### 3. sum of a range of numbers\n\n\n::: {.cell}\n\n```{.r .cell-code}\nsum(1:4)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 10\n```\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

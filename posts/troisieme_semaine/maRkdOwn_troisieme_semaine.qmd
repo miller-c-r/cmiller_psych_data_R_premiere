@@ -10,13 +10,13 @@ categories: [news, code, analysis]
 image: "magical_text.png"
 ---
 
-## Markdown in  R
+## Markdown in R
 
 ### A Few Examples with plain text
 
-#### 1.  italics **I *can* complete the midterm**
+#### 1. italics **I *can* complete the midterm**
 
-#### 2. strikethrough:  I ~~can~~ complete the midterm
+#### 2. strikethrough: I ~~can~~ complete the midterm
 
 #### 3. hiding my code with echo=False:
 
@@ -25,15 +25,15 @@ print("I can complete the midterm")
 
 ```
 
-#### 4. versus showing code:
+#### 4. showing code:
 
 ```{r}
 print("I can complete the midterm")
 ```
 
-### Some Math 
+### Some Math
 
-#### 1.  simple addition
+#### 1. simple addition
 
 ```{r}
 5 + 5
