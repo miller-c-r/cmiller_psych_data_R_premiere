@@ -31,15 +31,7 @@ print("I can complete the midterm")
 print("I can complete the midterm")
 ```
 
-### Some Math
 
-#### Summation ?
-
-```{r}
-
-
-
-```
 
 ### Logical operators
 
