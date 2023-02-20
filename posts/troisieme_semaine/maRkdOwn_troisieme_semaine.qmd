@@ -33,23 +33,30 @@ print("I can complete the midterm")
 
 ### Some Math
 
-#### 1. simple addition
+#### Summation ?
 
 ```{r}
-5 + 5
+
+
+
 ```
 
-### 2. square root
+### Logical operators
 
 ```{r}
 
-sqrt(100)
+x <- 10
+
+y <- 20
+
+x == y
+
+x != y
+
+y > x
+
+
 ```
 
-#### 3. sum of a range of numbers
-
-```{r}
-
-sum(1:4)
 
 ```
