@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Learning how to Program in R  My Journey  C Miller",
     "section": "",
-    "text": "Midterm Part 2\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMidterm Part 1\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nImporting data\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nGraphs and Plots !!\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nSome Markdown with in R\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nSome tips for my R toolkit\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog. An example from the library Indometh a dataset of the pharmacokinetics of Indomethacin\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nNo Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
+    "text": "Dates and Times\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMidterm Part 2\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMidterm Part 1\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 31, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nImporting data\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2023\n\n\nC Miller\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraphs & Plots\n\n\n\n\n\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nSome Markdown with in R\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nSome tips for my R toolkit\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nMy First Blog. An example from the library Indometh a dataset of the pharmacokinetics of Indomethacin\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nC Miller\n\n\n\n\n\n\n  \n\n\n\n\nNo Code Here Yet\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 24, 2023\n\n\nC Miller\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -40,5 +40,12 @@
     "title": "Some Markdown with in R",
     "section": "",
     "text": "[1] \"I can complete the midterm\"\n\n\n\n\n\n\nprint(\"I can complete the midterm\")\n\n[1] \"I can complete the midterm\"\n\n\n\n\n\n\n\nx <- 10\n\ny <- 20\n\nx == y\n\n[1] FALSE\n\nx != y\n\n[1] TRUE\n\ny > x\n\n[1] TRUE\n\n\n```"
+  },
+  {
+    "objectID": "posts/quatrieme_semaine/grammar_quatrieme_semaine.html",
+    "href": "posts/quatrieme_semaine/grammar_quatrieme_semaine.html",
+    "title": "Graphs and Plots !!",
+    "section": "",
+    "text": "#install.packages\n\nlibrary(rio)\n\nWarning: package 'rio' was built under R version 4.2.2\n\ndemo_tsv  <- import(\"data/demo.tsv\")"
   }
 ]

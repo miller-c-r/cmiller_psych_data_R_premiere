@@ -5,6 +5,7 @@ date: "2023-02-15"
 categories: [news, code, analysis]
 image: "some_pie.jpg"
 ---
+
 ## *Three ~~very~~ sort of helpful TIPS:*
 
 ### *Tip 1. storing a value in a variable*
@@ -14,6 +15,7 @@ x <- "Chantal"
 print(x)
 
 ```
+
 ### *Tip 2. The function 'c'*
 
 #### The function c will combine the values in the parentheses
@@ -25,6 +27,7 @@ y <- c(1,2,3,4,5,6)
 print(x)
 print(y)
 ```
+
 ### *Tip 3. Calculating a mean, the difference between text and numerical data*
 
 #### Cannot calculate mean(~~"1", "2", "3", "4"~~)
@@ -36,6 +39,7 @@ mean(y)
 ```
 
 #### *Tip 4. Getting a flaky pie crust for a double crust blueberry pie*
+
             a. Use frozen butter
             b. Use an oxo good grip pastry blender while cutting fat into the dough
             c. dont rush lamination

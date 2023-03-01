@@ -1,7 +1,6 @@
 ---
-title: " **Graphs and Plots !!**"
+title: "Graphs & Plots"
 author: "C Miller"
 date: "2023-03-01"
-categories: [news, code, analysis]
-image: "electricity_foto.png"
+categories: [analysis]
 ---

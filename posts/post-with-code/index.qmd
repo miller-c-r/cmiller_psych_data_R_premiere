@@ -2,7 +2,7 @@
 title: " No Code Here Yet"
 author: "C Miller"
 date: "2023-01-24"
-categories: [news, code, analysis]
+categories: [news]
 image: "pic_apprehension.jpg"
 ---
 

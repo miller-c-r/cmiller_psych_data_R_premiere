@@ -1,0 +1,14 @@
+{
+  "hash": "a4e9879b1378013908fc1e93586fc385",
+  "result": {
+    "markdown": "---\ntitle: \" **Graphs and Plots !!**\"\nauthor: \"C Miller\"\ndate: \"2023-03-01\"\ncategories: [news, code, analysis]\nimage: \"electricity_foto.png\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\n#install.packages\n\nlibrary(rio)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning: package 'rio' was built under R version 4.2.2\n```\n:::\n\n```{.r .cell-code}\ndemo_tsv  <- import(\"data/demo.tsv\")\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
