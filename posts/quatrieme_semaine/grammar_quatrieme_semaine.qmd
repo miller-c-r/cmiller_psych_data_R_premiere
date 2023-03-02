@@ -8,15 +8,14 @@ image: "electricity_foto.png"
 
 ### Basic Graphs and Plots in R
 
-#### Dataset gravity
+#### Dataset gravity {style="Pink"}
 
-```{r}
+```{r, echo=FALSE}
 
 library(tidyverse)
 library(boot)
 library(dplyr)
 
-gravity
 
 head(gravity)
 
