@@ -9,7 +9,7 @@ image: "electricity_foto.png"
 
 ### Basic Graphs and Plots in R
 
-#### Dataset ducks
+#### Dataset gravity
 
 ##### load boot library, tidyverse, data()
 
