@@ -3,4 +3,53 @@ title: "Graphs & Plots"
 author: "C Miller"
 date: "2023-03-01"
 categories: [analysis]
+image: "electricity_foto.png"
 ---
+
+
+### Basic Graphs and Plots in R
+
+#### Dataset ducks
+
+##### load boot library, tidyverse, data()
+
+```{r , echo=false}
+
+library(tidyverse)
+library(boot)
+
+gravity
+
+
+
+
+
+```
+
+```{r}
+
+head(gravity)
+
+```
+
+
+### Plotting the Gravity Dataset
+
+#### The gravity data frame has 81 rows and 2 columns.
+
+
+
+"Between May 1934 and July 1935, the National Bureau of Standards in Washington D.C. conducted a series of experiments to estimate the acceleration due to gravity, g, at Washington. Each experiment produced a number of replicate estimates of g using the same methodology. Although the basic method remained the same for all experiments, that of the reversible pendulum, there were changes in configuration.
+
+The gravity data frame contains the data from all eight experiments. The grav data frame contains the data from the experiments 7 and 8. The data are expressed as deviations from 980.000 in centimetres per second squared."
+
+
+
+```{r}
+
+library(tidyverse)
+ggplot(data = gravity) + 
+  geom_point(mapping = aes(x = g, y =series))
+
+```
+
