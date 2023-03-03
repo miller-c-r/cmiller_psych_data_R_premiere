@@ -8,9 +8,9 @@ image: "docks.png"
 
 #### Importing / Export Data in R
 
-#### Call rio, tidyverse
+#### rio: :import, rio: :export tidyverse
 
-#### function calls: glimpse, spec
+#### function calls: glimpse(), spec(), View()
 
 ```{r, echo =FALSE}
 
@@ -22,10 +22,6 @@ demo <- readr::read_csv("data/demo.csv")
 
 spec(demo)
 
-
-```
-
-```{python}
-
-
+View(demo) # open up a data table in console pane
+print(demo) # print the first 10 rows
 ```
