@@ -2,6 +2,21 @@
 title: "Importing data"
 author: " C Miller"
 date: "2023-03-08"
-categories: [news, code, analysis]
+categories: [code, analysis]
 image: "docks.png"
 ---
+
+#### Importing / Export Data in R
+
+#### Call rio, tidyverse
+
+```{r, echo =FALSE}
+
+library(rio)
+library(tidyverse)
+```
+
+```{python}
+
+
+```
