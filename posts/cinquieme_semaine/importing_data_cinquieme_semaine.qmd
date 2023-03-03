@@ -10,10 +10,19 @@ image: "docks.png"
 
 #### Call rio, tidyverse
 
+#### function calls: glimpse, spec
+
 ```{r, echo =FALSE}
 
+#install.packages("rio")
 library(rio)
 library(tidyverse)
+
+demo <- readr::read_csv("data/demo.csv")
+
+spec(demo)
+
+
 ```
 
 ```{python}
