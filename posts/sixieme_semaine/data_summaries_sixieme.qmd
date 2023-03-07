@@ -1,4 +1,4 @@
----
+------------------------------------------------------------------------
 
 title: "Data Summaries"
 
@@ -6,11 +6,11 @@ author: " C Miller"
 
 date: "2023-03-15"
 
-categories: [code, analysis\]
+categories: \[code, analysis\]
 
 image: "docks.png"
 
----
+------------------------------------------------------------------------
 
 ### Data Summaries
 
@@ -41,14 +41,11 @@ mean(nys_suicide$`Firearm Deaths`)
 mean(nys_suicide$`Alcohol-Related Deaths`)
 mean(nys_suicide$`Suicide Deaths`)
 
-nys_suicide$`Race or Ethnicity` != "Black Non Hispanic"
 
-view(nys_suicide) # a table
 
 
 
 ```
-
 
 #### Create a table of mean values of some data
 
@@ -62,8 +59,13 @@ etoh_firearm_suicide <- summarise(nys_suicide,
 etoh_firearm_suicide
 ```
 
+#### Visualize Data
+
+```{r}
 
 
+```
 
-
-
+```{r}
+nys_suicide$`Race or Ethnicity` != "Black Non Hispanic"
+```
