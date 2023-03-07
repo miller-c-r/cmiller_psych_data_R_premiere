@@ -2,6 +2,19 @@
 title: "Midterm Part 1"
 author: "C Miller"
 date: "2023-03-31"
-categories: [news, code, analysis]
+categories: [code, analysis]
 image: "portal.png"
 ---
+
+##### python loop
+
+```{python}
+
+
+# loop through a list
+
+my_list = [1, 2, 3, 4, 5,]
+
+for i in my_list:
+  print(i)
+```

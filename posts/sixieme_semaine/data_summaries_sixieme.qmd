@@ -1,0 +1,69 @@
+---
+
+title: "Data Summaries"
+
+author: " C Miller"
+
+date: "2023-03-15"
+
+categories: [code, analysis\]
+
+image: "docks.png"
+
+---
+
+### Data Summaries
+
+#### My long term project, mental health data
+
+#### NYS Vtal Health Statistics, Suicide Deaths by Age Group Race
+
+```{r setup, include=FALSE}
+library(tidyverse) # readr and tibble
+
+library(rio) # import/export any data
+
+library(readxl)
+
+nys_suicide <- import("suicide_nys_region_2003.csv")
+
+the_nys_data <-readr::read_csv("suicide_nys_region_2003.csv")
+
+glimpse(nys_suicide)
+
+
+
+print(nys_suicide) # first 10 rows
+
+spec(the_nys_data) #column data type
+
+mean(nys_suicide$`Firearm Deaths`)
+mean(nys_suicide$`Alcohol-Related Deaths`)
+mean(nys_suicide$`Suicide Deaths`)
+
+nys_suicide$`Race or Ethnicity` != "Black Non Hispanic"
+
+view(nys_suicide) # a table
+
+
+
+```
+
+
+#### Create a table of mean values of some data
+
+```{r}
+etoh_firearm_suicide <- summarise(nys_suicide,
+                                  mean_Alcohol = mean(nys_suicide$`Alcohol-Related Deaths`),
+                                  mean_firearm = mean(nys_suicide$`Firearm Deaths`),
+                                  mean_suicide = mean(nys_suicide$`Suicide Deaths`)
+)
+
+etoh_firearm_suicide
+```
+
+
+
+
+
+

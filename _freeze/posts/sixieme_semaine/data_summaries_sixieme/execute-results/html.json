@@ -1,0 +1,14 @@
+{
+  "hash": "a9ea61cfa5afef11eeea2551ead03801",
+  "result": {
+    "markdown": "---\n\ntitle: \"Data Summaries\"\n\nauthor: \" C Miller\"\n\ndate: \"2023-03-15\"\n\ncategories: [code, analysis\\]\n\nimage: \"docks.png\"\n\n---\n\n\n### Data Summaries\n\n#### My long term project, mental health data\n\n#### NYS Vtal Health Statistics, Suicide Deaths by Age Group Race\n\n\n\n\n\n\n#### Create a table of mean values of some data\n\n\n::: {.cell}\n\n```{.r .cell-code}\netoh_firearm_suicide <- summarise(nys_suicide,\n                                  mean_Alcohol = mean(nys_suicide$`Alcohol-Related Deaths`),\n                                  mean_firearm = mean(nys_suicide$`Firearm Deaths`),\n                                  mean_suicide = mean(nys_suicide$`Suicide Deaths`)\n)\n\netoh_firearm_suicide\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n  mean_Alcohol mean_firearm mean_suicide\n1     56.44358     10.00234     20.12886\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
