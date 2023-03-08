@@ -6,7 +6,7 @@ author: " C Miller"
 
 date: "2023-03-15"
 
-categories: [code, analysis]
+categories: [analysis]
 
 image: "dep_image_troisieme.jpeg"
 
