@@ -18,6 +18,8 @@ image: "dep_image_troisieme.jpeg"
 
 #### NYS Vtal Health Statistics, Suicide Deaths by Age Group Race
 
+#### https://health.data.ny.gov/Health/Vital-Statistics-Suicide-Deaths-by-Age-Group-Race-/j6fz-a4ta
+
 ```{r}
 library(tidyverse) # readr and tibble
 
