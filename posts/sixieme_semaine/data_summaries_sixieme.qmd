@@ -50,10 +50,12 @@ mean(nys_suicide$`Suicide Deaths`)
 #### Create a table of mean values of some data
 
 ```{r}
+
+
 etoh_firearm_suicide <- summarise(nys_suicide,
                                   mean_Alcohol = mean(nys_suicide$`Alcohol-Related Deaths`),
-                                  mean_firearm = mean(nys_suicide$`Firearm Deaths`),
-                                  mean_suicide = mean(nys_suicide$`Suicide Deaths`)
+                                  mean_firearm = mean(nys_suicide$FirearmDeaths),
+                                  mean_suicide = mean(nys_suicide$SuicideDeaths)
 )
 
 etoh_firearm_suicide
@@ -62,9 +64,20 @@ etoh_firearm_suicide
 #### Visualize Data
 
 ```{r}
+ggplot(nys_suicide, aes(x = RaceorEthnicity, y = SuicideDeaths))+
+  geom_bin_2d()
 
+
+ggplot(nys_suicide, aes(x = RaceorEthnicity, y = FirearmDeaths))+
+  geom_bin_2d()
+  
 
 ```
+
+
+
+
+
 
 ```{r}
 nys_suicide$`Race or Ethnicity` != "Black Non Hispanic"

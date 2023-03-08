@@ -102,7 +102,6 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title column-body">
       <h1 class="title">Importing data</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
                 <div class="quarto-category">code</div>
                 <div class="quarto-category">analysis</div>
               </div>
@@ -140,10 +139,94 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<i><i><b><i><b><b>
-<i><i><b><i><b><b>
+<section id="importing-export-data-in-r" class="level4">
+<h4 class="anchored" data-anchor-id="importing-export-data-in-r">Importing / Export Data in R</h4>
+</section>
+<section id="rio-import-rio-export-tidyverse" class="level4">
+<h4 class="anchored" data-anchor-id="rio-import-rio-export-tidyverse">rio: :import, rio: :export tidyverse</h4>
+</section>
+<section id="function-calls-glimpse-spec-view" class="level4">
+<h4 class="anchored" data-anchor-id="function-calls-glimpse-spec-view">function calls: glimpse(), spec(), View()</h4>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'rio' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyverse' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.4.0      ✔ purrr   1.0.1 
+✔ tibble  3.1.8      ✔ dplyr   1.0.10
+✔ tidyr   1.3.0      ✔ stringr 1.5.0 
+✔ readr   2.1.3      ✔ forcats 0.5.2 </code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tibble' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'tidyr' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'readr' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'purrr' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'dplyr' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'stringr' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'forcats' was built under R version 4.2.2</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Rows: 6 Columns: 6
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (2): character, factor
+dbl  (2): integer, double
+lgl  (1): logical
+date (1): date
 
-</b></b></i></b></i></i></b></b></i></b></i></i></main><i><i><b><i><b><b> <!-- /main -->
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>cols(
+  character = col_character(),
+  factor = col_character(),
+  integer = col_double(),
+  double = col_double(),
+  logical = col_logical(),
+  date = col_date(format = "")
+)</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 6
+  character factor integer double logical date      
+  &lt;chr&gt;     &lt;chr&gt;    &lt;dbl&gt;  &lt;dbl&gt; &lt;lgl&gt;   &lt;date&gt;    
+1 A         high         1    1.5 TRUE    2022-04-04
+2 B         low          2    2.5 TRUE    2022-04-03
+3 C         med          3    3.5 FALSE   2022-04-02
+4 D         high         4    4.5 FALSE   2022-04-01
+5 E         low          5    5.5 NA      2022-03-31
+6 F         med          6    6.5 TRUE    2022-03-30</code></pre>
+</div>
+</div>
+<i><i><b><i><b><b>
+<i><i><b><i><b><b>
+</b></b></i></b></i></i></b></b></i></b></i></i></section><i><i><b><i><b><b>
+
+</b></b></i></b></i></i></main><i><i><b><i><b><b> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
