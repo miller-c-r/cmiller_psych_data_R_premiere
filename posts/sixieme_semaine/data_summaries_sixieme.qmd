@@ -1,4 +1,4 @@
-------------------------------------------------------------------------
+---
 
 title: "Data Summaries"
 
@@ -6,11 +6,11 @@ author: " C Miller"
 
 date: "2023-03-15"
 
-categories: \[code, analysis\]
+categories: [code, analysis]
 
 image: "docks.png"
 
-------------------------------------------------------------------------
+---
 
 ### Data Summaries
 
@@ -18,7 +18,7 @@ image: "docks.png"
 
 #### NYS Vtal Health Statistics, Suicide Deaths by Age Group Race
 
-```{r setup, include=FALSE}
+```{r}
 library(tidyverse) # readr and tibble
 
 library(rio) # import/export any data
