@@ -35,13 +35,14 @@ glimpse(nys_suicide)
 
 
 
-print(nys_suicide) # first 10 rows
 
 spec(the_nys_data) #column data type
 
-mean(nys_suicide$`Firearm Deaths`)
+# comparing the three causes of death
+
+mean(nys_suicide$`FirearmDeaths`)
 mean(nys_suicide$`Alcohol-Related Deaths`)
-mean(nys_suicide$`Suicide Deaths`)
+mean(nys_suicide$`SuicideDeaths`)
 
 
 
