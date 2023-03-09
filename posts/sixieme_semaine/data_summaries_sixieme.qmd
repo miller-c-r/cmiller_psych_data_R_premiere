@@ -1,15 +1,9 @@
 ---
-
 title: "Data Summaries"
-
-author: " C Miller"
-
+author: "C Miller"
 date: "2023-03-15"
-
 categories: [analysis]
-
 image: "dep_image_troisieme.jpeg"
-
 ---
 
 ### Data Summaries
