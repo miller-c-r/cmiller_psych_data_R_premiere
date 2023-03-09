@@ -171,7 +171,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>title: “Data Summaries”</p>
 <p>author: ” C Miller”</p>
 <p>date: “2023-03-15”</p>
-<p>categories: [code, analysis]</p>
+<p>categories: [analysis]</p>
 <p>image: “dep_image_troisieme.jpeg”</p>
 <hr>
 <section id="data-summaries" class="level3">
@@ -306,22 +306,54 @@ $ SuicideDeaths            &lt;int&gt; 0, 0, 1, 4, 3, 9, 5, 20, 4, 6, 8, 16, 2, 
 </section>
 <section id="visualize-data" class="level4">
 <h4 class="anchored" data-anchor-id="visualize-data">Visualize Data</h4>
+</section>
+<section id="an-assisted-attempt-at-barplots" class="level4">
+<h4 class="anchored" data-anchor-id="an-assisted-attempt-at-barplots">An assisted attempt at barplots</h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nys_suicide, <span class="fu">aes</span>(<span class="at">x =</span> RaceorEthnicity, <span class="at">y =</span> SuicideDeaths))<span class="sc">+</span></span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bin_2d</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(nys_suicide<span class="sc">$</span>RaceorEthnicity)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Black Non Hispanic" "Hispanic"           "Not Stated"        
+[4] "Other Non Hispanic" "White Non Hispanic"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nys_suicide, <span class="fu">aes</span>(<span class="at">x =</span> RaceorEthnicity, <span class="at">y =</span> SuicideDeaths))<span class="sc">+</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">"summary"</span>, <span class="at">fun =</span> <span class="st">"mean"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="data_summaries_sixieme_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nys_suicide, <span class="fu">aes</span>(<span class="at">x =</span> RaceorEthnicity, <span class="at">y =</span> FirearmDeaths))<span class="sc">+</span></span>
-<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bin_2d</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>means <span class="ot">&lt;-</span> nys_suicide <span class="sc">%&gt;%</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(RaceorEthnicity) <span class="sc">%&gt;%</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a> <span class="fu">summarize</span>(<span class="at">mean_suicide =</span> <span class="fu">mean</span>(SuicideDeaths))</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>means</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 5 × 2
+  RaceorEthnicity    mean_suicide
+  &lt;chr&gt;                     &lt;dbl&gt;
+1 Black Non Hispanic        2.98 
+2 Hispanic                 44.4  
+3 Not Stated                0.632
+4 Other Non Hispanic        3.26 
+5 White Non Hispanic       24.3  </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(means, <span class="fu">aes</span>(<span class="at">x=</span>RaceorEthnicity, <span class="at">y =</span> mean_suicide)) <span class="sc">+</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">position =</span><span class="st">"dodge"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="data_summaries_sixieme_files/figure-html/unnamed-chunk-3-2.png" class="img-fluid" width="672"></p>
 </div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(means, <span class="fu">aes</span>(<span class="at">x=</span>RaceorEthnicity, <span class="at">y =</span> mean_suicide)) <span class="sc">+</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="data_summaries_sixieme_files/figure-html/unnamed-chunk-3-3.png" class="img-fluid" width="672"></p>
 </div>
+</div>
+</section>
+<section id="view-the-distribution-with-geom_point" class="level4">
+<h4 class="anchored" data-anchor-id="view-the-distribution-with-geom_point">View the distribution with geom_point</h4>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>nys_suicide<span class="sc">$</span><span class="st">`</span><span class="at">Race or Ethnicity</span><span class="st">`</span> <span class="sc">!=</span> <span class="st">"Black Non Hispanic"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>logical(0)</code></pre>
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(nys_suicide, <span class="fu">aes</span>(<span class="at">x =</span> RaceorEthnicity, <span class="at">y =</span> SuicideDeaths))<span class="sc">+</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="data_summaries_sixieme_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <i><i><b><i><b><b>

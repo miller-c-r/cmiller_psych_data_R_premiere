@@ -66,22 +66,35 @@ etoh_firearm_suicide
 
 #### Visualize Data
 
+#### An assisted attempt at barplots
+
 ```{r}
+unique(nys_suicide$RaceorEthnicity)
+
+
+
 ggplot(nys_suicide, aes(x = RaceorEthnicity, y = SuicideDeaths))+
-  geom_bin_2d()
+  geom_bar(stat="summary", fun = "mean")
 
+means <- nys_suicide %>%
+  group_by(RaceorEthnicity) %>%
+ summarize(mean_suicide = mean(SuicideDeaths))
 
-ggplot(nys_suicide, aes(x = RaceorEthnicity, y = FirearmDeaths))+
-  geom_bin_2d()
+means
+
+ggplot(means, aes(x=RaceorEthnicity, y = mean_suicide)) +
+  geom_bar(stat = "identity", position ="dodge")
+
+ggplot(means, aes(x=RaceorEthnicity, y = mean_suicide)) +
+  geom_bar(stat = "identity")
   
 
 ```
 
 
-
-
-
+#### View the distribution with geom_point
 
 ```{r}
-nys_suicide$`Race or Ethnicity` != "Black Non Hispanic"
+ggplot(nys_suicide, aes(x = RaceorEthnicity, y = SuicideDeaths))+
+  geom_point() 
 ```
